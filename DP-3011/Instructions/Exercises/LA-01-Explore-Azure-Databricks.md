@@ -32,7 +32,7 @@ Este ejercicio debería tardar aproximadamente **20** minutos en completarse.
 
     ```
     rm -r mslearn-databricks -f
-    git clone https://github.com/Netec-Mx/mslearn-databricks/DP-3011.git
+    git clone https://github.com/Netec-Mx/mslearn-databricks.git
     ```
 
 5. Una vez clonado el repositorio, escribe el siguiente comando para ejecutar el script **setup.ps1**, que aprovisiona un área de trabajo de Azure Databricks en una región disponible:
