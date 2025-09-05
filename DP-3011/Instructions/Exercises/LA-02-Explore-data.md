@@ -40,7 +40,7 @@ Si se produjese un error en el script debido a cuota o permisos insuficientes, i
 5. Una vez clonado el repositorio, escribe el siguiente comando para ejecutar el script **setup.ps1**, que aprovisiona un área de trabajo de Azure Databricks en una región disponible:
 
     ```
-    ./mslearn-databricks/DP-3014/setup.ps1
+    ./mslearn-databricks/DP-3011/setup.ps1
     ```
 
 6. Si se solicita, elige la suscripción que quieres usar (esto solo ocurrirá si tienes acceso a varias suscripciones de Azure).
