@@ -30,7 +30,7 @@ En este ejercicio, se incluye un script para aprovisionar una nueva área de tra
 
     ```powershell
     rm -r mslearn-databricks -f
-      git clone https://github.com/Netec-Mx/mslearn-databricks.git
+    git clone https://github.com/Netec-Mx/mslearn-databricks.git
     ```
 
 5. Una vez clonado el repositorio, escribe el siguiente comando para ejecutar el script **setup.ps1**, que aprovisiona un área de trabajo de Azure Databricks en una región disponible:
