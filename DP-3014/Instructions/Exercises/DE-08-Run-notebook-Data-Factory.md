@@ -30,13 +30,13 @@ This exercise includes a script to provision a new Azure Databricks workspace. T
 
     ```
     rm -r mslearn-databricks -f
-    git clone https://github.com/Netec-Mx/mslearn-databricks/DP-3014.git
+        git clone https://github.com/Netec-Mx/mslearn-databricks.git
     ```
 
 5. After the repo has been cloned, enter the following command to run the **setup.ps1** script, which provisions an Azure Databricks workspace in an available region:
 
     ```
-    .mslearn-databricks/DP-3014/setup.ps1
+    ./mslearn-databricks/DP-3014/setup.ps1
     ```
 
 6. If prompted, choose which subscription you want to use (this will only happen if you have access to multiple Azure subscriptions).
