@@ -32,13 +32,13 @@ This exercise should take approximately **20** minutes to complete.
 
     ```
     rm -r mslearn-databricks -f
-    git clone https://github.com/MicrosoftLearning/mslearn-databricks
+    git clone https://github.com/Netec-Mx/mslearn-databricks.git
     ```
 
 5. After the repo has been cloned, enter the following command to run the **setup.ps1** script, which provisions an Azure Databricks workspace in an available region:
 
     ```
-    ./mslearn-databricks/setup.ps1
+    ./mslearn-databricks/DP-3014/setup.ps1
     ```
 
 6. If prompted, choose which subscription you want to use (this will only happen if you have access to multiple Azure subscriptions).
@@ -120,3 +120,4 @@ While most data analysts are comfortable using SQL code as used in the previous 
 In Azure Databricks portal, on the **Compute** page, select your cluster and select **&#9632; Terminate** to shut it down.
 
 If you've finished exploring Azure Databricks, you can delete the resources you've created to avoid unnecessary Azure costs and free up capacity in your subscription.
+
