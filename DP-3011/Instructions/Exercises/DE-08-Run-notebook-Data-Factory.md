@@ -30,13 +30,13 @@ This exercise includes a script to provision a new Azure Databricks workspace. T
 
     ```
     rm -r mslearn-databricks -f
-    git clone https://github.com/MicrosoftLearning/mslearn-databricks
+    git clone https://github.com/Netec-Mx/mslearn-databricks.git
     ```
 
 5. After the repo has been cloned, enter the following command to run the **setup.ps1** script, which provisions an Azure Databricks workspace in an available region:
 
     ```
-    ./mslearn-databricks/setup.ps1
+    ./mslearn-databricks/DP-3011/setup.ps1
     ```
 
 6. If prompted, choose which subscription you want to use (this will only happen if you have access to multiple Azure subscriptions).
@@ -185,3 +185,4 @@ Now that you have created a linked service, you can use it in a pipeline to run 
 ## Clean up
 
 If you've finished exploring Azure Databricks, you can delete the resources you've created to avoid unnecessary Azure costs and free up capacity in your subscription.
+
